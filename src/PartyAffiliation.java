@@ -5,9 +5,6 @@ public class PartyAffiliation {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        String D;
-        String R;
-        String I;
         String pAffiliation;
         String Trash = "";
 
@@ -23,7 +20,5 @@ public class PartyAffiliation {
         } else {
             System.out.println("You get Other");
         }
-        in.close();
-        
     }
 }
