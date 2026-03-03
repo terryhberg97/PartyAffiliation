@@ -11,13 +11,20 @@ public class PartyAffiliation {
         System.out.println("Enter your party affiliation (D for Democrat, R for Republican, or I for Independent): ");
         pAffiliation = in.next();
 
-        if (pAffiliation.equalsIgnoreCase("D")) {
+        if (pAffiliation.equalsIgnoreCase("D"))
+        {
             System.out.println("You get a Democratic Donkey");
-        } else if (pAffiliation.equalsIgnoreCase("R")) {
+        }
+        else if (pAffiliation.equalsIgnoreCase("R"))
+        {
             System.out.println("You get a Republican Elephant");
-        } else if (pAffiliation.equalsIgnoreCase("I")) {
+        }
+        else if (pAffiliation.equalsIgnoreCase("I"))
+        {
             System.out.println("You get Person");
-        } else {
+        }
+        else
+        {
             System.out.println("You get Other");
         }
     }
